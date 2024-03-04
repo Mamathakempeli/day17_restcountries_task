@@ -1,0 +1,42 @@
+.cardContent{
+    color: black;
+    
+    width:350px;
+    height:400px;
+    display:flex;
+    
+    
+}
+.cardContainer{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    background-color: grey;    
+    
+}
+.card-header{
+    border: 2px solid black;
+    height:50px;
+    font-style:normal;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:black;
+    padding:5px;
+    text-align: center;
+  
+}
+.card-img-top{
+    border: 2px solid black;
+    height:90px;
+    width:50px;
+  
+    
+}
+.countryDetails{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    border: 2px solid black;
+    color: white;
+    background-color:dimgray;
+     
+}
